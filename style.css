@@ -1,5 +1,6 @@
 *{
-    margin: auto;
+    margin: 0%;
+    
 }
 
 .head{
@@ -7,46 +8,79 @@
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
       ), url(Netflix-background.jpg) ;
-    height: 1100px ;
-    background-size: cover;
+    
+    background-size:cover;
+    height: 1100px;
+    display: flex;
     
 
 }
 
 .navbar{
-    width: 700px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center
-    ;
-}
-
-.inner-navbar{
     height: 80px;
-    width: 660px;
+    width: 835px;
+    margin-left: 16px;
     display: flex;
+    margin-top : 25px;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: space-evenly;
+    
 
-.logo-layout{
-    height: 24px;
-    width: 260px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
 }
 
 .logo{
-    background-image: url(Netflix-Logo.png);
-    height: 23px;
-    width: 60px;
-    background-size: contain;
-    padding-left:20px ;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40%;
+    font-size: 25px;
+}
+.language{
+    
+    margin-left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.signin{
-    height: 450px;
-    width: 650px;
+.language select{
+    height: 32px;
+    width: 124px;
+    background-color: black;
+    color: white;   
+    border-radius: 5px;
+    font-size: 15px;
+    
 }
+.sign-in{
+    margin-left: 2%;
+}
+
+.sign-in button{
+    height: 32px;
+    width: 80px;
+    background-color: red;
+    color: white;   
+    border-radius: 5px;
+    border-color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
