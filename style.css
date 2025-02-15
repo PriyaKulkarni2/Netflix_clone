@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(Netflix-background.jpg) ;
+    background-size: cover  ;
+    width: 100%;
+
+}
+.head{
+    
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial;
+    width: 100%;
+    
+
+}
+
+.navbar{
+    height: 150px ;
+    width: 100%;
+    display: flex;
+    line-height: 100px;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo{
+    color: rgba(299,9,20);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 40%;
+}
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.language select{
+    text-align: center;
+    height: 35px;
+    width: 120px;
+    background-color: transparent;
+    color: white;   
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sign-in button{
+
+    height: 35px;
+    width: 80px;
+    background-color:rgba(299,9,20);
+    color: white;   
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.sign-in :hover{
+    background-color: rgb(202, 8, 8);
+}
+
+.unlimited{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.main-display h3{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger; 
+}
+
+.main-display h4{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.enter-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.enter-email input{
+    background: transparent;
+    border : 1px solid #ffffff6f;
+    height: 50px;
+    width: 400px;
+    border-radius: 0.2rem;
+    color: rgba(255, 255, 255, 0.648);
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 1rem;
+
+
+}
+
+.enter-email button{
+    background-color: rgba(299,9,20);
+    border: 1px solid red;
+    height: 50px;
+    width: 200px;
+    border-radius: 0.3rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.enter-email button:hover{
+    background-color: rgb(202, 8, 8);
+}
+
+.middle{
+    height: 400%;
+    width: 100%;
+    background-color: black;
+    border-top: 0.3rem solid red;
+    border-top-left-radius: 300% 5%;
+    border-top-right-radius: 300% 5%;
+    margin-top: 8%;
+}
+
+.middle h1{
+    color: white;
+    padding-top: 40px;
+    padding-left: 11%;
+
+}
+
+
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    gap: 2rem;
+}
+.movie{
+    height: 250px;
+    width: 170px;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+.movie:hover{
+    transform: scale(1.1);
+}
+
+#squid-games{
+    background-image:url(squid-games.jpg) ;
+    background-size: cover;
+}
+
+#pushpa{
+    background-image: url(pushpa.jpg) ;
+    background-size: cover;
+}
+
+#mismatched{
+    background-image: url(mismatched.jpg) ;
+    background-size: cover;
+}
+#venom{
+    background-image: url(vemon2.jpeg);
+    background-size: cover;
+}
+#night-agent{
+    background-image: url(night-agent.jpeg);
+    background-size: cover;
+}
+
+.reason{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 1.2rem;
+    /* margin-left: 10vw; */
+
+}
+
+.reason-box{
+    height: 300px;
+    width: 235px;
+    background-color: white;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to bottom right, #192144, #210e18);
+    display: flex;
+    flex-direction: column;
+}
+
+.reason-box h2{
+    color: white;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+.reason-box p{
+    color: rgba(198, 198, 198, 0.872);
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+
+.fa-tv{
+    font-size: 50px;
+    align-self: flex-end;
+    padding-top: 57px;
+    padding-right: 15px;
+}
+
+.fa-download{
+    font-size: 50px;
+    align-self: flex-end;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.fa-plane{
+    font-size: 50px;
+    align-self: flex-end;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.fa-address-card{
+    font-size: 50px;
+    align-self: flex-end;
+    padding-top: 13px;
+    padding-right: 15px;
+}
+
+.faq{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.faq h2{
+    color: white;
+    align-self: flex-start;
+    padding-left: 140px;
+    padding-bottom: 10px;
+}
+.question{
+    background-color: rgb(45,45,45);
+    height: 80px;
+    width: 950px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.almost-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.almost-end p{
+    color: white;
+}
+
+.end-box input{
+    width: 500px;
+}
+
+.foot{
+    color: rgb(170, 170, 170);
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin: none;
+}
+
+.foot p{
+    align-self: flex-start;
+    padding-left: 175px;
+    padding-top: 70px;
+}
+.lists{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+    padding-right: 175px;
+    padding-top: 50px;
+
+}
+.lists ul{
+    list-style: none;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.foot select{
+    margin-top: 60px;
+    align-self: flex-start;
+    margin-left: 170px;
+}
+
+#last-line{
+    padding-top: 20px;
+    font-size: smaller;
+    padding-bottom: 50px;
+}
